@@ -49,6 +49,24 @@
           </button>
     </div>
     </div>
+    <script>
+        const text = document.querySelector(".sec-text");
+    
+const textLoad = () => {
+    setTimeout(() => {
+        text.textContent = " Websites";
+    }, 0);
+    setTimeout(() => {
+        text.textContent = " Software";
+    }, 4000);
+    setTimeout(() => {
+        text.textContent = " Games";
+    }, 8000); 
+}
+
+textLoad();
+setInterval(textLoad, 12000);
+                            </script>
 </header>
     <!-- /home  -->
 
